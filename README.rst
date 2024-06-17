@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Picturesque's docs
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Picturesque is a programming language. This is it's documentation. Picturesque has not even passed it's first version, so this is a work in progress.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Thank you!
