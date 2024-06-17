@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Picturesque'
+copyright = '2024, Ridwan bin Mohammad (Tiash)'
+author = 'Ridwan bin Mohammad (Tiash)'
 
 release = '0.1'
 version = '0.1.0'
