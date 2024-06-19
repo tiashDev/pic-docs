@@ -4,7 +4,15 @@ Windowed API
 Tcl/Tk
 ------
 
-lieutenant
+.. _wininit:
+
+wininit *n*
+   Initializes a window with the name *n*.
+
+.. _wintitle:
+
+wintitle *n* *..t*
+   Gives the window with name *n* the title *..t*.
 
 Plotting
 --------
