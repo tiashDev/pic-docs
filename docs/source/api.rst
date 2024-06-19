@@ -22,12 +22,9 @@ right *deg*
    Turns the pen right by *deg* degrees.
 left *deg*
    Turns it left by *deg* degrees.
-path.begin
-path.start
-pen.down
+path.begin, path.start, pen.down
    Starts drawing a line.
-path.end
-pen.up
+path.end, pen.up
    Ends a line.
 reset
    Resets the program.
@@ -37,8 +34,7 @@ color *color*
    Sets the color of the current line to *color*.
 fill *color*
    Fills the turtle with the color *color*.
-fillcolor.start
-fillcolor.begin
+fillcolor.start, fillcolor.begin
    Starts filling the turtle with the color specified by fill (see [fill] above).
 fillcolor.end
    Stops filling the turtle with the color specified by fill (see [fill] above).
