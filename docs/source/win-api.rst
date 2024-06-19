@@ -29,18 +29,18 @@ closewin *n*
 btn *..j*
    Creates a button. *..j* is some JSON that will configure the button. JSON keys:
       * name: The unique name you will use in your code to refer to the button.
-	  * parent: The parent window or frame.
-	  * text: The text on the button.
-	  * onclick: The code executed when the button is clicked.
+      * parent: The parent window or frame.
+      * text: The text on the button.
+      * onclick: The code executed when the button is clicked.
 
 .. _sbtn:
 
 sbtn *..j*
    Creates a styled button. *..j* is some JSON that will configure the button. JSON keys:
-      * name: The unique name you will use in your code to refer to the button.
-	  * parent: The parent window or frame.
-	  * text: The text on the button.
-	  * onclick: The code executed when the button is clicked.
+       * name: The unique name you will use in your code to refer to the button.
+       * parent: The parent window or frame.
+       * text: The text on the button.
+       * onclick: The code executed when the button is clicked.
 
 .. _lbl:
 
