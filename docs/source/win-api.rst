@@ -61,7 +61,7 @@ txt *..j*
       * name: The unique name you will use in your code to refer to the text.
       * parent: The parent window or frame.
       * width: The width of the text area.
-	  * height: The height of the text area.
+      * height: The height of the text area.
 
 Plotting
 --------
