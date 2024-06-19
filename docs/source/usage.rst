@@ -6,15 +6,15 @@ CLI Usage
 Basic usage
 -----------
 
-<filename>
+```<filename>```
 
-Excecutes the file <filename>.
+Excecutes the file ```<filename>```.
 
-.. __c_flag
+.. __c_flag:
 
 -c Flag
 -------
 
--c <code>
+```-c <code>```
 
-Executes the code <code>.
+Executes the code ```<code>```.
