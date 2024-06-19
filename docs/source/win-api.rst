@@ -213,3 +213,8 @@ shape *s*
       * square 
       * triangle 
       * classic
+
+.. _input:
+
+input *..t* | *..b*
+    Asks the user for input in the GUI. The window which appears has the title *..t* and body *..b*.
