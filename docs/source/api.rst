@@ -149,9 +149,9 @@ closeonclick
 mode *m*
    Sets the header mode to *m*.
    *m* can be -
-   * "standard": The default turtle heading is to the east
-   * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
-   * "logo": The default turtle heading is to the north
+    * "standard": The default turtle heading is to the east
+    * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
+    * "logo": The default turtle heading is to the north
 	  
 .. _goto:
 
@@ -168,9 +168,9 @@ dot *r* *c*
 shape *s*
    Sets the shape of the turtle to *s*.
    *s* can be -
-   * arrow 
-   * turtle 
-   * circle 
-   * square 
-   * triangle 
-   * classic
+    * arrow 
+    * turtle 
+    * circle 
+    * square 
+    * triangle 
+    * classic
