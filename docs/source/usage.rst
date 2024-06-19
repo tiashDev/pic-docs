@@ -2,9 +2,7 @@ CLI Usage
 =========
 
 *filename*
-   Excecutes the file ``<filename>``.
+     Excecutes the file ``<filename>``.
 
-``-c <code>``
--------------
-
-Executes the code ``<code>``.
+-c *code*
+     Executes the code ``<code>``.
