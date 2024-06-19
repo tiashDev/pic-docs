@@ -17,26 +17,22 @@ Turtle
 .. _forward:
 
 forward *px*
-   """Moves the turtle (the pen) forward by *px* pixels.
-   :param px: The number of pixels."""
+   Moves the turtle (the pen) forward by *px* pixels.
 
 .. _backward:
 
 backward *px*
-   """Moves it backward by *px* pixels.
-   :param px: The number of pixels."""
+   Moves it backward by *px* pixels.
 
 .. _right:
 
 right *deg*
-   """Turns the pen right by *deg* degrees.
-   :param deg: The number of degrees."""
+   Turns the pen right by *deg* degrees.
 
 .. _left:
 
 left *deg*
-   """Turns it left by *deg* degrees.
-   :param deg: The number of degrees."""
+   Turns it left by *deg* degrees.
 
 .. _path_begin:
 
@@ -61,14 +57,12 @@ clear
 .. _color:
 
 color *color*
-   """Sets the color of the current line to *color*.
-   :param color: The colour."""
+   Sets the color of the current line to *color*.
 
 .. _fill:
 
 fill *color*
-   """Fills any fillable polygon that is drawn by the turtle with the color *color*.
-   :param color: The colour."""
+   Fills any fillable polygon that is drawn by the turtle with the color *color*.
 
 .. _fillcolor_start:
 
@@ -83,20 +77,17 @@ fillcolor.end
 .. _wait:
 
 wait *secs*
-   """Waits for *secs* seconds.
-   :param secs: The number of seconds."""
+   Waits for *secs* seconds.
 
 .. _setx:
 
 setx *x*
-   """Sets the X coordinate of the turtle to *x*.
-   :param y: The Y coordinate."""
+   Sets the X coordinate of the turtle to *x*.
 
 .. _sety:
 
 sety *y*
-   """Sets the Y coordinate of the turtle to *y*.
-   :param y: The Y coordinate."""
+   Sets the Y coordinate of the turtle to *y*.
 
 .. _stamp:
 
@@ -111,11 +102,9 @@ stamps.clear
 .. _speed:
 
 speed *s*
-   """Sets the speed of the turtle to *s*.
-   :param s: The speed."""
+   Sets the speed of the turtle to *s*.
 
 .. _size:
 
 size *s*
-   """Sets the width of the line to *s*.
-   :param s: The size."""
+   Sets the width of the line to *s*.
