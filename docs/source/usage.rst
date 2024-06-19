@@ -1,12 +1,12 @@
 CLI Usage
 =========
 
-``<filename>``
+``*filename*``
 --------------
 
 Excecutes the file ``<filename>``.
 
-``-c <code>``
+``-c *code*``
 -------------
 
 Executes the code ``<code>``.
