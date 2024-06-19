@@ -9,4 +9,4 @@ Contents
 .. toctree::
 
    usage
-   win-api
+   api
