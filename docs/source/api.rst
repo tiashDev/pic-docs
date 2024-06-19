@@ -108,3 +108,69 @@ speed *s*
 
 size *s*
    Sets the width of the line to *s*.
+
+.. _circle:
+
+circle *r*
+   Makes the turtle draw a circle with radius *r*.
+
+.. _outline:
+
+outline *c*
+   Sets the colour of the outline of the turtle to *c*.
+   
+.. _hide:
+
+hide
+   Hides the turtle.
+   
+.. _show:
+
+show
+   Shows the turtle.
+   
+.. _screen_color:
+
+screen.color *c*
+   Sets the colour of the screen to *c*.
+   
+.. _screen_image:
+
+screen.image *i*
+   Sets the background image of the screen to *i*.
+   
+.. _closeonclick:
+
+closeonclick
+   Makes it so that if you click the turtle window, it will close.
+   
+.. _mode:
+
+mode *m*
+   Sets the header mode to *m*.
+   *m* can be -
+      * "standard": The default turtle heading is to the east
+      * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
+      * "logo": The default turtle heading is to the north
+	  
+.. _goto:
+
+goto *x* *y*
+   Makes the turtle go to x *x* and y *y*.
+   
+.. _dot:
+
+dot *r* *c*
+   Draws a dot with radius *r* and colour *c*.
+   
+.. _shape:
+
+shape *s*
+   Sets the shape of the turtle to *s*.
+   *s* can be -
+      * arrow 
+      * turtle 
+      * circle 
+      * square 
+      * triangle 
+      * classic
