@@ -162,8 +162,8 @@ Commands
 plot *..x* * *..y*
    Plots a plot with x-axis *..x* and y-axis *..y*. Overloads -
 
-       * plot *..x* * *..y* : *s*
-           Plots a plot with x-axis *..x* and y-axis *..y*. *s* is a Matplotlib format string for styling the plot.
+   * plot *..x* * *..y* : *s*
+        Plots a plot with x-axis *..x* and y-axis *..y*. *s* is a Matplotlib format string for styling the plot.
 
 .. _bar:
 
@@ -171,8 +171,8 @@ bar *..l* * *..n*
    Plots a vertical bar plot with labels *..l* and values *..n*.
    Overloads -
 
-       * bar *..l* * *..n* : *c*
-          Plots a vertical bar plot with labels *..l* and values *..n*. *c* is the colour of all the bars.
+   * bar *..l* * *..n* : *c*
+        Plots a vertical bar plot with labels *..l* and values *..n*. *c* is the colour of all the bars.
 
 .. _barh:
 
@@ -180,8 +180,8 @@ barh *..l* * *..n*
    Plots a horizontal bar plot with labels *..l* and values *..n*.
    Overloads -
 
-       * barh *..l* * *..n* : *c*
-           Plots a horizontal bar plot with labels *..l* and values *..n*. *c* is the colour of all the bars.
+   * barh *..l* * *..n* : *c*
+        Plots a horizontal bar plot with labels *..l* and values *..n*. *c* is the colour of all the bars.
 
 .. _pie:
 
@@ -189,8 +189,8 @@ pie *..l* * *..n*
    Plots a pie with labels *..l* and values *..n*.
    Overloads -
 
-       * pie *..l* * *..n* : *..c*
-           Plots a pie with labels *..l* and values *..n*. *..c* is a list of the colour of the slices.
+   * pie *..l* * *..n* : *..c*
+        Plots a pie with labels *..l* and values *..n*. *..c* is a list of the colour of the slices.
 
 .. _hist:
 
@@ -198,10 +198,10 @@ hist *..v*
    Plots a histogram with values *..v*.
    Overloads -
 
-       * hist random
-            Plots a histogram with random values.
-       * hist random *me* *md* *mo*
-            Plots a histogram with random values. The mean of the values is *me*, the median *md* and the mode *mo*.
+   * hist random
+        Plots a histogram with random values.
+   * hist random *me* *md* *mo*
+        Plots a histogram with random values. The mean of the values is *me*, the median *md* and the mode *mo*.
 Turtle
 ------
 
