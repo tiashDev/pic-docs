@@ -132,6 +132,11 @@ askopenfile
 askopenfiles
    Opens a window that lets the user select many files.
 
+.. _dotcl:
+
+dotcl *n* '*..t*'
+   Executes the Tcl code *..t* on the window with the name *n*.
+
 Variables
 ^^^^^^^^^
 
