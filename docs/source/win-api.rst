@@ -372,7 +372,7 @@ Variables
 .. _var_pos:
 
 $pos
-   Gets the position of the turtle in the format (*x*\,*y*).
+   Gets the position of the turtle.
 
 .. _var_x:
 
