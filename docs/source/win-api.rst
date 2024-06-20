@@ -84,14 +84,16 @@ entry *..j*
 .. _sentry:
 
 sentry *..j*
-   Creates a styled text box. *..j* is some JSON that will help configure the text box. Required keys of *..j*:
+   Creates a styled text box. *..j* is some JSON that will help configure the text box. 
+   Required keys of *..j*:
        * name: The name you will use in your code to refer to the text box.
        * parent: The parent window or frame.
 
 .. _modify:
 
 modify *..j*
-   Does something to a widget. *..j* is some JSON. *..j* keys:
+   Does something to a widget. *..j* is some JSON. 
+   *..j* keys:
        * name: The name of the widget which the something is to be done to.
        * args: The arguments for the something to be done. Can be anything, and can even be undefined (in some cases).
        * command: The something to be done. Can be:
