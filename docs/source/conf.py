@@ -17,9 +17,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-import sphinx_adc_theme
-html_theme = 'sphinx_adc_theme'
-html_theme_path = [sphinx_adc_theme.get_html_theme_path()]
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
