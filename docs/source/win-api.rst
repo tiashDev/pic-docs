@@ -98,7 +98,7 @@ modify *..j*
        * args: The arguments for the something to be done. Can be anything, and can even be undefined (in some cases).
        * command: The something to be done. 
          Can be:
-	   * "insert": Inserts **args[1]** into an `entry <#entry>`_/`sentry <#sentry>`_/`txt <#txt>`_/`scrolltxt <#scrolltxt>`_ at position **args[1]**. In this case, **args** is an array.
+	   * "insert": Inserts **args[1]** into an `entry <#entry>`_/`sentry <#sentry>`_/`txt <#txt>`_/`scrolltxt <#scrolltxt>`_ at position **args[0]**. In this case, **args** is an array.
 	   * "invoke": Invokes a button. In this case, **args** does not need to be defined.
 
 Plotting
