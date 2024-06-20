@@ -119,6 +119,16 @@ info *..t* | *..b*
 askcolor
    Opens a colour chooser popup and shows the colour the user entered in the CLI.
 
+.. _askopenfile:
+
+askopenfile
+   Opens a window that lets the user select a file.
+
+.. _askopenfiles:
+
+askopenfiles
+   Opens a window that lets the user select many files.
+
 Plotting
 --------
 
