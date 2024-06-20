@@ -331,3 +331,8 @@ shape *s*
 
 input *..t* | *..b*
     Asks the user for input in the GUI. The window which appears has the title *..t* and body *..b*.
+
+.. _numinput:
+
+numinput *..t* | *..b*
+    Asks the user for a numerical input in the GUI. The window which appears has the title *..t* and body *..b*.
