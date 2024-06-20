@@ -372,7 +372,7 @@ Variables
 .. _var_pos:
 
 $pos
-   Gets the position of the turtle in format "(<x>,<y>)".
+   Gets the position of the turtle.
 
 .. _var_x:
 
@@ -444,7 +444,8 @@ $mode
       * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
       * "logo": The default turtle heading is to the north
 
-   Toggleable using -
+   Toggleable 
+   using -
       * mode
 
 .. _var_shape:
