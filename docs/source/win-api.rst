@@ -117,7 +117,7 @@ info *..t* | *..b*
 .. _askcolor:
 
 askcolor
-   Opens a colour chooser popup and shows the color the user entered in the CLI.
+   Opens a colour chooser popup and shows the colour the user entered in the CLI.
 
 Plotting
 --------
