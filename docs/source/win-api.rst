@@ -135,22 +135,22 @@ askopenfiles
 Variables
 ^^^^^^^^^
 
-.. _var_pos
+.. _var_pos:
 
 $pos
    Gets the position of the turtle in format "(<x>,<y>)".
 
-.. _var_x
+.. _var_x:
 
 $x
    Gets the x coordinate (horizontal position) of the turtle.
 
-.. _var_y
+.. _var_y:
 
 $y
    Gets the y coordinate (vertical position) of the turtle
 
-.. _var_down
+.. _var_down:
 
 $down
    A boolean. True if the turtle is down, otherwise false.
@@ -158,22 +158,22 @@ $down
       * path.start, path.begin, pen.down
       * path.end, pen.up
 
-.. _var_outline
+.. _var_outline:
 
 $outline
    Gets the color of the current outline of the turtle
 
-.. _var_fill
+.. _var_fill:
 
 $fill
    Gets the color of the current filling of the turtle
 
-.. _var_color
+.. _var_color:
 
 $color
    Gets the current color of the lines drawn by the turtle
 
-.. _var_visible
+.. _var_visible:
 
 $visible
    Another boolean. True if the turtle is visible, otherwise false.
@@ -181,27 +181,27 @@ $visible
       * hide
       * show
 
-.. _var_turtle_shape_polygonal_points
+.. _var_turtle_shape_polygonal_points:
 
 $turtle_shape_polygonal_points
    The turtle's current shape polygon as a list of coordinate pairs
 
-.. _var_winwidth
+.. _var_winwidth:
 
 $winwidth
    The width of the window, in pixels
 
-.. _var_winheight
+.. _var_winheight:
 
 $winheight
    The height of the window, in pixels
 
-.. _var_bgimage
+.. _var_bgimage:
 
 $bgimage
    The current background image of the screen
 
-.. _var_mode
+.. _var_mode:
 
 $mode
    The turtle heading mode of the drawing
@@ -212,7 +212,7 @@ $mode
    Toggleable using -
       * mode
 
-.. _var_shape
+.. _var_shape:
 
 $shape
    Gets the current shape of the turtle.
