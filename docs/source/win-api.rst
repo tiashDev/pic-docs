@@ -132,6 +132,19 @@ askopenfile
 askopenfiles
    Opens a window that lets the user select many files.
 
+Variables
+^^^^^^^^^
+
+.. _var_tk_version:
+
+$tk_version
+   Gets the version of Tcl/Tk built in.
+
+.. _var_tk_ext_version:
+
+$tk_ext_version
+   Gets the extended version of Tcl/Tk built in.
+
 Plotting
 --------
 
