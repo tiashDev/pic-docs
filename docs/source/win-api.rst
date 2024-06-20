@@ -241,7 +241,7 @@ path.end, pen.up
 .. _reset:
 
 reset
-   Resets the program.
+   Resets the turtle screen.
 
 .. _clear:
 
