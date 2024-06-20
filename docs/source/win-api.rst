@@ -336,3 +336,13 @@ input *..t* | *..b*
 
 numinput *..t* | *..b*
     Asks the user for a numerical input in the GUI. The window which appears has the title *..t* and body *..b*.
+
+.. _write:
+
+write *..t*
+   Writes the string *..t* on to the canvas.
+
+.. _screen_image:
+
+screen.image *..i*
+  Sets the background image of the screen to *..i*.
