@@ -101,6 +101,24 @@ modify *..j*
 	   * "insert": Inserts ``args[1]`` into an `entry <#entry>`_/`sentry <#sentry>`_/`txt <#txt>`_/`scrolltxt <#scrolltxt>`_ at position ``args[0]``. In this case, ``args`` is an array.
 	   * "invoke": Invokes a button. In this case, ``args`` does not need to be defined.
 
+.. _frm:
+
+frm *..j*
+   Creates a frame. *..j* is some JSON that will help configure the frame. 
+   Required keys of *..j*:
+       * name: The name you will use in your code to refer to the frame.
+       * parent: The parent window or frame.
+
+.. _info:
+
+info *..t* | *..b*
+   Opens an info message box with the title *..t* and the body *..b*.
+
+.. _askcolor:
+
+askcolor
+   Opens a colour chooser popup and shows the color the user entered in the CLI.
+
 Plotting
 --------
 
