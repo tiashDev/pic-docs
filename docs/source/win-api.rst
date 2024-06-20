@@ -132,6 +132,91 @@ askopenfile
 askopenfiles
    Opens a window that lets the user select many files.
 
+Variables
+^^^^^^^^^
+
+.. _var_pos
+
+$pos
+   Gets the position of the turtle in format "(<x>,<y>)".
+
+.. _var_x
+
+$x
+   Gets the x coordinate (horizontal position) of the turtle.
+
+.. _var_y
+
+$y
+   Gets the y coordinate (vertical position) of the turtle
+
+.. _var_down
+
+$down
+   A boolean. True if the turtle is down, otherwise false.
+   Toggleable using -
+      * path.start, path.begin, pen.down
+      * path.end, pen.up
+
+.. _var_outline
+
+$outline
+   Gets the color of the current outline of the turtle
+
+.. _var_fill
+
+$fill
+   Gets the color of the current filling of the turtle
+
+.. _var_color
+
+$color
+   Gets the current color of the lines drawn by the turtle
+
+.. _var_visible
+
+$visible
+   Another boolean. True if the turtle is visible, otherwise false.
+   Toggleable using -
+      * hide
+      * show
+
+.. _var_turtle_shape_polygonal_points
+
+$turtle_shape_polygonal_points
+   The turtle's current shape polygon as a list of coordinate pairs
+
+.. _var_winwidth
+
+$winwidth
+   The width of the window, in pixels
+
+.. _var_winheight
+
+$winheight
+   The height of the window, in pixels
+
+.. _var_bgimage
+
+$bgimage
+   The current background image of the screen
+
+.. _var_mode
+
+$mode
+   The turtle heading mode of the drawing
+   Values -
+      * "standard": The default turtle heading is to the east
+      * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
+      * "logo": The default turtle heading is to the north
+   Toggleable using -
+      * mode
+
+.. _var_shape
+
+$shape
+   Gets the current shape of the turtle.
+
 Plotting
 --------
 
