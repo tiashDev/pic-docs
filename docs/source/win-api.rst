@@ -63,6 +63,16 @@ txt *..j*
       * width: The width of the text area.
       * height: The height of the text area.
 
+.. _scrolltxt:
+
+scrolltxt *..j*
+   Creates a text area with a scrollbar. *..j* is some JSON that will configure the text area. 
+   JSON keys:
+      * name: The unique name you will use in your code to refer to the text.
+      * parent: The parent window or frame.
+      * width: The width of the text area.
+      * height: The height of the text area.
+
 Plotting
 --------
 
