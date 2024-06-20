@@ -30,67 +30,68 @@ closewin *n*
 .. _btn:
 
 btn *..j*
-   Creates a button. *..j* is some JSON that will configure the button. 
-   JSON keys:
-      * name: The unique name you will use in your code to refer to the button.
-      * parent: The parent window or frame.
-      * text: The text on the button.
-      * onclick: The code executed when the button is clicked.
+   Creates a button. *..j* is some JSON that will configure the button. JSON keys:
+
+   * name: The unique name you will use in your code to refer to the button.
+   * parent: The parent window or frame.
+   * text: The text on the button.
+   * onclick: The code executed when the button is clicked.
 
 .. _sbtn:
 
 sbtn *..j*
-   Creates a styled button. *..j* is some JSON that will configure the button. 
-   JSON keys:
-      * name: The unique name you will use in your code to refer to the button.
-      * parent: The parent window or frame.
-      * text: The text on the button.
-      * onclick: The code executed when the button is clicked.
+   Creates a styled button. *..j* is some JSON that will configure the button. JSON keys:
+
+   * name: The unique name you will use in your code to refer to the button.
+   * parent: The parent window or frame.
+   * text: The text on the button.
+   * onclick: The code executed when the button is clicked.
 
 .. _lbl:
 
 lbl *..j*
-   Creates a label. *..j* is some JSON that will configure the label. 
-   JSON keys:
-      * name: The unique name you will use in your code to refer to the label.
-      * parent: The parent window or frame.
-      * text: The text on the label.
+   Creates a label. *..j* is some JSON that will configure the label. JSON keys:
+
+   * name: The unique name you will use in your code to refer to the label.
+   * parent: The parent window or frame.
+   * text: The text on the label.
 
 .. _txt:
 
 txt *..j*
-   Creates a text area. *..j* is some JSON that will configure the text area. 
-   JSON keys:
-      * name: The unique name you will use in your code to refer to the text.
-      * parent: The parent window or frame.
-      * width: The width of the text area.
-      * height: The height of the text area.
+   Creates a text area. *..j* is some JSON that will configure the text area. JSON keys:
+
+   * name: The unique name you will use in your code to refer to the text.
+   * parent: The parent window or frame.
+   * width: The width of the text area.
+   * height: The height of the text area.
 
 .. _scrolltxt:
 
 scrolltxt *..j*
-   Creates a text area with a scrollbar. *..j* is some JSON that will configure the text area. 
-   JSON keys:
-      * name: The unique name you will use in your code to refer to the text.
-      * parent: The parent window or frame.
-      * width: The width of the text area.
-      * height: The height of the text area.
+   Creates a text area with a scrollbar. *..j* is some JSON that will configure the text area. JSON keys:
+
+   * name: The unique name you will use in your code to refer to the text.
+   * parent: The parent window or frame.
+   * width: The width of the text area.
+   * height: The height of the text area.
 
 .. _entry:
 
 entry *..j*
-   Creates a text box. *..j* is some JSON that will help configure the text box. 
-   Required keys of *..j*:
-       * name: The name you will use in your code to refer to the text box.
-       * parent: The parent window or frame.
+   Creates a text box. *..j* is some JSON that will help configure the text box. Required keys of *..j*:
+
+   * name: The name you will use in your code to refer to the text box.
+   * parent: The parent window or frame.
 
 .. _sentry:
 
 sentry *..j*
    Creates a styled text box. *..j* is some JSON that will help configure the text box. 
    Required keys of *..j*:
-       * name: The name you will use in your code to refer to the text box.
-       * parent: The parent window or frame.
+
+   * name: The name you will use in your code to refer to the text box.
+   * parent: The parent window or frame.
 
 .. _modify:
 
@@ -107,10 +108,10 @@ modify *..j*
 .. _frm:
 
 frm *..j*
-   Creates a frame. *..j* is some JSON that will help configure the frame. 
-   Required keys of *..j*:
-       * name: The name you will use in your code to refer to the frame.
-       * parent: The parent window or frame.
+   Creates a frame. *..j* is some JSON that will help configure the frame. Required keys of *..j*:
+
+   * name: The name you will use in your code to refer to the frame.
+   * parent: The parent window or frame.
 
 .. _info:
 
@@ -159,8 +160,8 @@ Commands
 .. _plot:
 
 plot *..x* * *..y*
-   Plots a plot with x-axis *..x* and y-axis *..y*.
-   Overloads -
+   Plots a plot with x-axis *..x* and y-axis *..y*. Overloads -
+
        * plot *..x* * *..y* : *s*
            Plots a plot with x-axis *..x* and y-axis *..y*. *s* is a Matplotlib format string for styling the plot.
 
@@ -169,6 +170,7 @@ plot *..x* * *..y*
 bar *..l* * *..n*
    Plots a vertical bar plot with labels *..l* and values *..n*.
    Overloads -
+
        * bar *..l* * *..n* : *c*
           Plots a vertical bar plot with labels *..l* and values *..n*. *c* is the colour of all the bars.
 
@@ -177,14 +179,16 @@ bar *..l* * *..n*
 barh *..l* * *..n*
    Plots a horizontal bar plot with labels *..l* and values *..n*.
    Overloads -
+
        * barh *..l* * *..n* : *c*
            Plots a horizontal bar plot with labels *..l* and values *..n*. *c* is the colour of all the bars.
 
 .. _pie:
 
 pie *..l* * *..n*
-   Plots a pie with labelss *..l* and values *..n*.
+   Plots a pie with labels *..l* and values *..n*.
    Overloads -
+
        * pie *..l* * *..n* : *..c*
            Plots a pie with labels *..l* and values *..n*. *..c* is a list of the colour of the slices.
 
@@ -193,6 +197,7 @@ pie *..l* * *..n*
 hist *..v*
    Plots a histogram with values *..v*.
    Overloads -
+
        * hist random
             Plots a histogram with random values.
        * hist random *me* *md* *mo*
@@ -338,9 +343,10 @@ closeonclick
 mode *m*
    Sets the header mode to *m*.
    *m* can be -
-      * "standard": The default turtle heading is to the east
-      * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
-      * "logo": The default turtle heading is to the north
+
+   * "standard": The default turtle heading is to the east
+   * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
+   * "logo": The default turtle heading is to the north
 	  
 .. _goto:
 
@@ -357,12 +363,13 @@ dot *r* *c*
 shape *s*
    Sets the shape of the turtle to *s*.
    *s* can be -
-      * arrow 
-      * turtle 
-      * circle 
-      * square 
-      * triangle 
-      * classic
+
+   * arrow 
+   * turtle 
+   * circle 
+   * square 
+   * triangle 
+   * classic
 
 .. _input:
 
@@ -407,8 +414,9 @@ $y
 $down
    A boolean. True if the turtle is down, otherwise false.
    Toggleable using -
-      * path.start, path.begin, pen.down
-      * path.end, pen.up
+
+   * path.start, path.begin, pen.down
+   * path.end, pen.up
 
 .. _var_outline:
 
@@ -430,8 +438,9 @@ $color
 $visible
    Another boolean. True if the turtle is visible, otherwise false.
    Toggleable using -
-      * hide
-      * show
+
+   * hide
+   * show
 
 .. _var_turtle_shape_polygonal_points:
 
@@ -458,13 +467,15 @@ $bgimage
 $mode
    The turtle heading mode of the drawing.
    Values -
-      * "standard": The default turtle heading is to the east
-      * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
-      * "logo": The default turtle heading is to the north
+
+   * "standard": The default turtle heading is to the east
+   * "world": The default turtle heading is specified using user-defined world coordinates (using setworldcoordinates)
+   * "logo": The default turtle heading is to the north
 
    Toggleable 
    using -
-      * mode
+
+   * mode
 
 .. _var_shape:
 
