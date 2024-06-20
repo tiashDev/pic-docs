@@ -95,8 +95,8 @@ sentry *..j*
 .. _modify:
 
 modify *..j*
-   Does something to a widget. *..j* is some JSON. 
-   *..j* keys:
+   Does something to a widget. *..j* is some JSON. *..j* keys:
+   
    * name: The name of the widget which the something is to be done to.
    * args: The arguments for the something to be done. Can be anything, and can even be undefined (in some cases).
    * command: The something to be done. Can be:
