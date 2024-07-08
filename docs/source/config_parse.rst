@@ -1,8 +1,8 @@
 Parsing Configuration Files
 ===========================
 
-loadini *path*
-   Load an INI into Picturesque. Example:
+loadini *name* *path*
+   Load an INI (*path*) into Picturesque as some variables. The base variable name is *name*. Example:
 
    .. code-block:: ini
       :caption: ./ex/myini.ini
@@ -25,4 +25,14 @@ loadini *path*
 
       Picturesque [1.0.0]
       Type "help" for help.
-      >>
+      >> loadini myini ./ex/myini.ini
+      >> logln {%myini} ;~ access the base variable
+      configuration file (from loadini) -> ./EX/MYINI.INI
+      sections: forge.example, topsecret.server.example
+      >> logln {%myini[forge.example]} ;~ access a section
+      configuration file section (from loadini) -> ./EX/MYINI.INI (forge.example)
+      options: user, serveraliveinterval, compression, compressionlevel, forwardx11
+      >> logln {%myini[forge.example][user]} ;~ access option from forge.example
+      hg
+      >> logln {%myini[forge.example][serveraliveinterval]} ;~ access option from DEFAULT
+      45
