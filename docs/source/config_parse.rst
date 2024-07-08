@@ -20,7 +20,7 @@ loadini *name* *path*
       Port = 50022
       ForwardX11 = no
 
-   .. code-block::
+   .. code-block:: text
       :caption: Interpreter Session
 
       Picturesque [1.0.0]
