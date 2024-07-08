@@ -19,3 +19,10 @@ loadini *path*
       [topsecret.server.example]
       Port = 50022
       ForwardX11 = no
+
+   .. code-block::
+      :caption: Interpreter Session
+
+      Picturesque [1.0.0]
+      Type "help" for help.
+      >>
