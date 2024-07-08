@@ -6,4 +6,5 @@ ftp.open *url*
 
    .. code-block::
       :caption: Example
+      
       ftp.open ftp.us.debian.org
