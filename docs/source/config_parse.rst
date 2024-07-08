@@ -70,3 +70,102 @@ loadcsv *name* *path*
       >> logln {%mycsv[1][2]} {%mycsv[1][1]} ;~ get a neatly formatted name
       Alice Jones
       >> exit
+
+loadplistxml *name* *path*
+   Load an Apple XML PList (*path*) into Picturesque as some variables. The base variable name is *name*. Example:
+
+   .. code-block:: xml
+      :caption: ./ex/myplist.plist
+      
+      <?xml version="1.0" encoding="UTF-8"?>
+      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+      <plist version="1.0">
+      <dict>
+              <key>aDate</key>
+              <date>2024-07-06T19:07:53Z</date>
+              <key>aDict</key>
+              <dict>
+                      <key>aFalseValue</key>
+                      <false/>
+                      <key>aThirdString</key>
+                      <string>Mässig, Maß</string>
+                      <key>aTrueValue</key>
+                      <true/>
+                      <key>anotherString</key>
+                      <string>&lt;hello &amp; hi there!&gt;</string>
+              </dict>
+              <key>aFloat</key>
+              <real>0.1</real>
+              <key>aList</key>
+              <array>
+                      <string>A</string>
+                      <string>B</string>
+                      <integer>12</integer>
+                      <real>32.1</real>
+                      <array>
+                              <integer>1</integer>
+                              <integer>2</integer>
+                              <integer>3</integer>
+                      </array>
+              </array>
+              <key>aString</key>
+              <string>Doodah</string>
+              <key>anInt</key>
+              <integer>728</integer>
+              <key>someData</key>
+              <data>
+              PGJpbmFyeSBndW5rPg==
+              </data>
+              <key>someMoreData</key>
+              <data>
+              PGxvdHMgb2YgYmluYXJ5IGd1bms+PGxvdHMgb2YgYmluYXJ5IGd1bms+PGxvdHMgb2Yg
+              YmluYXJ5IGd1bms+PGxvdHMgb2YgYmluYXJ5IGd1bms+PGxvdHMgb2YgYmluYXJ5IGd1
+              bms+PGxvdHMgb2YgYmluYXJ5IGd1bms+PGxvdHMgb2YgYmluYXJ5IGd1bms+PGxvdHMg
+              b2YgYmluYXJ5IGd1bms+PGxvdHMgb2YgYmluYXJ5IGd1bms+PGxvdHMgb2YgYmluYXJ5
+              IGd1bms+
+              </data>
+      </dict>
+      </plist>
+
+   .. code-block:: text
+      :caption: Interpreter Session
+
+      Picturesque [1.0.0]
+      Copyright (c) 2024.
+      Type "help" for help.
+      >> loadplistxml myplist ./ex/myplist.plist
+      >> logln {%myplist}
+      configuration tree (from plist) -> ./EX/MYPLIST.PLIST (branch: MYPLIST)
+      keys: aDate, aDict, aFloat, aList, aString, anInt, someData, someMoreData
+      >> logln {%myplist[adate]}
+      2024-07-06 19:07:53
+      >> logln {%myplist[adict]}
+      configuration tree (from plist) -> ./EX/MYPLIST.PLIST (branch: MYPLIST[aDict])
+      keys: aFalseValue, aThirdString, aTrueValue, anotherString
+      >> logln {%myplist[adict][afalsevalue]}
+      $false
+      >> logln {%myplist[adict][athirdstring]}
+      Mässig, Maß
+      >> logln {%myplist[adict][atruevalue]}
+      $true
+      >> logln {%myplist[adict][anotherstring]}
+      <hello & hi there!>
+      >> logln {%myplist[alist]}
+      A, B, 12, 32.1, (1, 2, 3)
+      >> logln {%myplist[alist][0]}
+      A
+      >> logln {%myplist[alist][1]}
+      B
+      >> logln {%myplist[alist][2]}
+      12
+      >> logln {%myplist[alist][3]}
+      32.1
+      >> logln {%myplist[alist][4]}
+      1, 2, 3
+      >> logln {%myplist[alist][4][0]}
+      1
+      >> logln {%myplist[alist][4][2]}
+      3
+      >> logln {%myplist[alist][4][1]}
+      2
+      >> exit
