@@ -26,3 +26,11 @@
    :param is_console: Specifies if it is in the interpreter console or not.
    :param filename: The filename to be executed.
    :param is_artist: Specifies if the file is being executed in the Artist editor.
+
+``ipic.errors`` - Picturesque exceptions
+----------------------------------------
+
+.. class:: PicturesqueException(msg='')
+   :module: ipic.errors
+
+   The base exception for all Picturesque exceptions. Extends ``Exception``.
