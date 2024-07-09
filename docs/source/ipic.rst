@@ -45,7 +45,7 @@ The other exceptions are :py:class:`ipic.errors.PicturesqueUnreconizedCommandExc
 
    What ``ipic.lang.out`` is an instance of.
 
-   .. function:: bind(evt, func):
+   .. function:: bind(evt, func)
 
       Bind the function *func* to the event *evt*.
       *evt* can be:
@@ -57,14 +57,14 @@ The other exceptions are :py:class:`ipic.errors.PicturesqueUnreconizedCommandExc
       * onrequestclearscreen
           Do *func* when *requestclearscreen* is called.
 
-   .. function:: output(text):
+   .. function:: output(text)
 
       Output the text *text*.
 
-   .. function:: error(err):
+   .. function:: error(err)
 
       Call the ``error`` event handler with the error *err`.
 
-   .. function:: requestclearscreen():
+   .. function:: requestclearscreen()
 
       Call the ``onrequestclearscreen`` event handler.
