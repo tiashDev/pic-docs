@@ -12,3 +12,4 @@ Contents
    win-api
    ftp-api
    config_parse
+   ipic
