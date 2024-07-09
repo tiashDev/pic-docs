@@ -47,23 +47,23 @@ The other exceptions are :py:class:`ipic.errors.PicturesqueUnreconizedCommandExc
 
    .. function:: bind(evt, func):
 
-      Bind the function :py:param:`func` to the event :py:param:`evt`.
-      :py:param:`evt` can be:
+      Bind the function *func* to the event *evt*.
+      *evt* can be:
 
       * output
-          Do :py:param:`func` when :py:func:`output` is called.
+          Do *func* when *output* is called.
       * error
-          Do :py:param:`func` when an error occurs.
+          Do *func* when an error occurs.
       * onrequestclearscreen
-          Do :py:param:`func` when :py:func:`requestclearscreen` is called.
+          Do *func* when *requestclearscreen* is called.
 
    .. function:: output(text):
 
-      Output the text :py:param:`text`.
+      Output the text *text*.
 
    .. function:: error(err):
 
-      Call the ``error`` event handler with the error :py:param:`err`.
+      Call the ``error`` event handler with the error *err`.
 
    .. function:: requestclearscreen():
 
