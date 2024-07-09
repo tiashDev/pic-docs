@@ -17,7 +17,7 @@
 .. function:: interpret(do, val, lineno, line, is_console, filename, is_artist)
    :module: ipic.lang
    
-   The Picturesque interpreter. Used by py:func:`ipic.lang.lexer` to execute the program. All arguments are required.
+   The Picturesque interpreter. Used by :py:func:`ipic.lang.lexer` to execute the program. All arguments are required.
    
    :param do: The command.
    :param val: The arguments.
