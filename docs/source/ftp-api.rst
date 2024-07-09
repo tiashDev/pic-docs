@@ -33,6 +33,7 @@ Example
 
 .. code-block:: text
    :caption: Interpreter Session
+
    Picturesque [1.0.0]
    Copyright (c) 2024.
    Type "help" for help.
