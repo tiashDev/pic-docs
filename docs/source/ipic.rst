@@ -17,9 +17,12 @@
 .. function:: interpret(do, val, lineno, line, is_console, filename, is_artist)
    :module: ipic.lang
    
-   The Picturesque interpreter. Used by `lexer() <#ipic.lang.lexer>`_ to execute the program.
+   The Picturesque interpreter. Used by `lexer() <#ipic.lang.lexer>`_ to execute the program. All arguments are required.
    
-   :param program: The program to be executed.
-   :param is_console: Specifies if it is in the interpreter console or not. Defaults to ``False``.
-   :param filename: The filename to be executed. Defaults to ``'<console>'``.
+   :param do: The command.
+   :param val: The arguments.
+   :param lineno: The statement number.
+   :param line: The statement.
+   :param is_console: Specifies if it is in the interpreter console or not.
+   :param filename: The filename to be executed.
    :param is_artist: Specifies if the file is being executed in the Artist editor.
