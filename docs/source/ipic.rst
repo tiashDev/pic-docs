@@ -11,5 +11,5 @@
    
    :param program: The program to be executed.
    :param is_console: Specifies if it is in the interpreter console or not. Defaults to ``False``.
-   :param filename: The filename to be executed. Defaults to ``'console'``.
+   :param filename: The filename to be executed. Defaults to ``'<console>'``.
    :param is_artist: Specifies if the file is being executed in the Artist editor.
