@@ -40,7 +40,7 @@ The other exceptions are :py:class:`ipic.errors.PicturesqueUnreconizedCommandExc
 ``ipic.out`` - The PicturesqueOutputHandler class
 -------------------------------------------------
 
-.. class:: PicturesqueOutputHandler():
+.. class:: PicturesqueOutputHandler()
    :module: ipic.out
 
    What ``ipic.lang.out`` is an instance of.
