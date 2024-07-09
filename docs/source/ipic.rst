@@ -63,7 +63,7 @@ The other exceptions are :py:class:`ipic.errors.PicturesqueUnreconizedCommandExc
 
    .. function:: error(err)
 
-      Call the ``error`` event handler with the error *err`.
+      Call the ``error`` event handler with the error *err*.
 
    .. function:: requestclearscreen()
 
