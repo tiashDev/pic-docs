@@ -35,7 +35,7 @@
 
    The base exception for all Picturesque exceptions. Extends ``Exception``.
 
-The other exceptions are :py:class:`ipic.errors.PicturesqueUnreconizedCommandException`, :py:class:`ipic.errors.PicturesqueUnreconizedEventException`, :py:class:`ipic.errors.PicturesqueWindowNotFoundException`, :py:class:`ipic.errors.PicturesqueInvalidWidgetException`, :py:class:`ipic.errors.PicturesqueUndefinedTkWinClassException`, :py:class:`ipic.errors.PicturesqueInvalidOSException`, and :py:class:`ipic.errors.PicturesqueInvalidURLException`.
+The other exceptions are :py:class:`PicturesqueUnreconizedCommandException`, :py:class:`PicturesqueUnreconizedEventException`, :py:class:`PicturesqueCommandAlreadyInNamespaceException`, and :py:class:`PicturesqueWindowNotFoundException`, :py:class:`PicturesqueInvalidWidgetException`.
 
 ``ipic.out`` - The PicturesqueOutputHandler class
 -------------------------------------------------
