@@ -6,7 +6,7 @@ Picturesque is a programming language. This is it's documentation. Picturesque h
 I want to contribute to Picturesque's documentation!
 ----------------------------------------------------
 
-Submit a pull request. Isn't that obvious? But in order to make accurate documentation, you must take a look at the source code. That's covered in the next section.
+If you want to, thanks! It's very nice of you. Anyway, submit a pull request. Isn't that obvious? But in order to make accurate documentation, you must take a look at the source code. That's covered in the next section.
 
 I want to view Picturesque's source code!
 -----------------------------------------
