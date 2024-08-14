@@ -6,7 +6,7 @@ Picturesque is a programming language, originally just made for drawing things u
 I want to contribute to Picturesque's documentation!
 ----------------------------------------------------
 
-If you want to, thanks! It's very nice of you. Anyway, submit a pull request. Isn't that obvious? But in order to make accurate documentation, you must take a look at the source code. That's covered in the next section.
+If you want to, thanks! It's very nice of you. Anyway, you need to have a GitHub account. Now `click here <https://github.com/tiashDev/pic-docs/>`_, and submit a pull request. But in order to make accurate documentation, you must take a look at the source code. That's covered in the next section.
 
 I want to view Picturesque's source code!
 -----------------------------------------
