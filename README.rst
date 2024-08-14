@@ -11,4 +11,4 @@ Submit a pull request. Isn't that obvious? But in order to make accurate documen
 I want to view Picturesque's source code!
 -----------------------------------------
 
-Go to this link `here <https://1drv.ms/f/c/18dd97e4fa22add2/Eria6D2T43BDkImG8kIIfdgBeyYCrUp_RSSw-MmWZ-UzCA>`_. You'll see the Picturesque codebase.
+Go to `this link <https://1drv.ms/f/c/18dd97e4fa22add2/Eria6D2T43BDkImG8kIIfdgBeyYCrUp_RSSw-MmWZ-UzCA>`_. You'll see the Picturesque codebase.
