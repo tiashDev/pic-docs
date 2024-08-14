@@ -25,16 +25,16 @@ loadini *name* *path*
 
       Picturesque [1.0.0]
       Type "help" for help.
-      >> loadini myini ./ex/myini.ini
-      >> logln {%myini} ;~ access the base variable
+      >> loadini myini ./ex/myini.ini;
+      >> logln {%myini} ;~ access the base variable;
       configuration file (from loadini) -> ./EX/MYINI.INI
       sections: forge.example, topsecret.server.example
-      >> logln {%myini[forge.example]} ;~ access a section
+      >> logln {%myini[forge.example]} ;~ access a section;
       configuration file section (from loadini) -> ./EX/MYINI.INI (forge.example)
       options: user, serveraliveinterval, compression, compressionlevel, forwardx11
-      >> logln {%myini[forge.example][user]} ;~ access option from forge.example
+      >> logln {%myini[forge.example][user]} ;~ access option from forge.example;
       hg
-      >> logln {%myini[forge.example][serveraliveinterval]} ;~ access option from DEFAULT
+      >> logln {%myini[forge.example][serveraliveinterval]} ;~ access option from DEFAULT;
       45
       >> exit
 
@@ -55,19 +55,19 @@ loadcsv *name* *path*
       Picturesque [1.0.0]
       Copyright (c) 2024.
       Type "help" for help.
-      >> loadcsv mycsv ./ex/mycsv.csv
-      >> logln {%mycsv} ;~ the base variable
+      >> loadcsv mycsv ./ex/mycsv.csv;
+      >> logln {%mycsv} ;~ the base variable;
       company            surname   forename
       Foo Tech           Jones     Alice
       Top Bar Hardware   Smith     Bob
       4uxcorp            Garcia    Carlos
-      >> logln {%mycsv[0]} ;~ row number 0
+      >> logln {%mycsv[0]} ;~ row number 0;
       company, surname, forename
-      >> logln {%mycsv[1]} ;~ row number 1
+      >> logln {%mycsv[1]} ;~ row number 1;
       Foo Tech, Jones, Alice
-      >> logln {%mycsv[1][2]} ;~ row 1, column 2
+      >> logln {%mycsv[1][2]} ;~ row 1, column 2;
       Alice
-      >> logln {%mycsv[1][2]} {%mycsv[1][1]} ;~ get a neatly formatted name
+      >> logln {%mycsv[1][2]} {%mycsv[1][1]} ;~ get a neatly formatted name;
       Alice Jones
       >> exit
 
@@ -133,39 +133,39 @@ loadplistxml *name* *path*
       Picturesque [1.0.0]
       Copyright (c) 2024.
       Type "help" for help.
-      >> loadplistxml myplist ./ex/myplist.plist
-      >> logln {%myplist} ;~ the base variable
+      >> loadplistxml myplist ./ex/myplist.plist;
+      >> logln {%myplist} ;~ the base variable;
       configuration tree (from plist) -> ./EX/MYPLIST.PLIST (branch: MYPLIST)
       keys: aDate, aDict, aFloat, aList, aString, anInt, someData, someMoreData
-      >> logln {%myplist[adate]} ;~ a date
+      >> logln {%myplist[adate]} ;~ a date;
       2024-07-06 19:07:53
-      >> logln {%myplist[adict]} ;~ a dict
+      >> logln {%myplist[adict]} ;~ a dict;
       configuration tree (from plist) -> ./EX/MYPLIST.PLIST (branch: MYPLIST[aDict])
       keys: aFalseValue, aThirdString, aTrueValue, anotherString
-      >> logln {%myplist[adict][afalsevalue]} ;~ a false value
+      >> logln {%myplist[adict][afalsevalue]} ;~ a false value;
       $false
-      >> logln {%myplist[adict][athirdstring]} ;~ a string
+      >> logln {%myplist[adict][athirdstring]} ;~ a string;
       Mässig, Maß
-      >> logln {%myplist[adict][atruevalue]} ;~ a true value
+      >> logln {%myplist[adict][atruevalue]} ;~ a true value;
       $true
-      >> logln {%myplist[adict][anotherstring]} ;~ another string
+      >> logln {%myplist[adict][anotherstring]} ;~ another string;
       <hello & hi there!>
-      >> logln {%myplist[alist]} ;~ an array
+      >> logln {%myplist[alist]} ;~ an array;
       A, B, 12, 32.1, (1, 2, 3)
-      >> logln {%myplist[alist][0]} ;~ an array item
+      >> logln {%myplist[alist][0]} ;~ an array item;
       A
-      >> logln {%myplist[alist][1]} ;~ another array item
+      >> logln {%myplist[alist][1]} ;~ another array item;
       B
-      >> logln {%myplist[alist][2]} ;~ and another
+      >> logln {%myplist[alist][2]} ;~ and another;
       12
-      >> logln {%myplist[alist][3]} ;~ and yet another
+      >> logln {%myplist[alist][3]} ;~ and yet another;
       32.1
-      >> logln {%myplist[alist][4]} ;~ a subarray
+      >> logln {%myplist[alist][4]} ;~ a subarray;
       1, 2, 3
-      >> logln {%myplist[alist][4][0]} ;~ a subarray item
+      >> logln {%myplist[alist][4][0]} ;~ a subarray item;
       1
-      >> logln {%myplist[alist][4][2]} ;~ another subarray item
+      >> logln {%myplist[alist][4][2]} ;~ another subarray item;
       3
-      >> logln {%myplist[alist][4][1]} ;~ and another
+      >> logln {%myplist[alist][4][1]} ;~ and another;
       2
-      >> exit
+      >> exit;
