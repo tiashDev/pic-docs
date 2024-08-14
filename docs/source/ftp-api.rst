@@ -37,10 +37,10 @@ Example
    Picturesque [1.0.0]
    Copyright (c) 2024.
    Type "help" for help.
-   >> ~ open a connection ;ftp.open ftp.us.debian.org
-   >> ftp.login
+   >> ~ open a connection ;ftp.open ftp.us.debian.org;
+   >> ftp.login;
    230 Login successful.
-   >> logln {$ftp.welcome}
+   >> logln {$ftp.welcome};
    220-
    220----------------------------------------------------------------------------
    220-                      R S Y N C . O S U O S L . O R G
@@ -60,14 +60,14 @@ Example
    220----------------------------------------------------------------------------
    220-
    220
-   >> logln {$ftp.cwd}
+   >> logln {$ftp.cwd};
    /
-   >> ftp.lsdir
+   >> ftp.lsdir;
    lrwxrwxrwx    1 0        0              17 Mar 19 16:24 debian -> pub/debian/debian
    lrwxrwxrwx    1 0        0              18 Mar 19 16:24 debian-cd -> pub/debian-cdimage
    lrwxrwxrwx    1 0        0              18 Mar 19 16:24 debian-cdimage -> pub/debian-cdimage
    drwxr-xr-x    4 0        0            4096 Mar 19 16:24 pub
    -rw-r--r--    1 0        0             754 Mar 19 16:26 welcome.msg
-   >> ftp.close
+   >> ftp.close;
    221 Goodbye.
-   >> exit
+   >> exit;
