@@ -23,12 +23,3 @@ Contents
    ftp-api
    config_parse
    ipic
-
-=======  ==========
-Symbol   Substitute
-=======  ==========
-.        CHAR0__
-\-        CHAR1__
-[        CHAR2__
-]        CHAR3__
-=======  ==========
