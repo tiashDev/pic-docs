@@ -40,27 +40,7 @@ Example
    >> ~ open a connection ;ftp.open ftp.us.debian.org;
    >> ftp.login;
    230 Login successful.
-   >> logln {$ftp.welcome};
-   220-
-   220----------------------------------------------------------------------------
-   220-                      R S Y N C . O S U O S L . O R G
-   220-                          Oregon State University
-   220-                              Open Source Lab
-   220-
-   220-       Unauthorized use is prohibited - violators will be prosecuted
-   220----------------------------------------------------------------------------
-   220-
-   220-                For more information about the OSL visit:
-   220-                    http://osuosl.org/services/hosting
-   220-
-   220-          This host is the home to the primary archives of several
-   220-           projects.  We would prefer that only primary/secondary
-   220-                    mirrors use this service.  Thanks!
-   220-
-   220----------------------------------------------------------------------------
-   220-
-   220
-   >> logln {$ftp.cwd};
+   >> logln .{$ftp.cwd};
    /
    >> ftp.lsdir;
    lrwxrwxrwx    1 0        0              17 Mar 19 16:24 debian -> pub/debian/debian
