@@ -26,10 +26,10 @@ loadini *name* *path*
       Picturesque [1.0.0]
       Type "help" for help.
       >> loadini myini ./ex/myini.ini;
-      >> logln ..{%myini} ;~ access the base variable;
+      >> logln .{%myini} ;~ access the base variable;
       configuration file (from loadini) -> ./EX/MYINI.INI
       sections: forge.example, topsecret.server.example
-      >> logln ..{%myini[forge.example]} ;~ access a section;
+      >> logln .{%myini[forge.example]} ;~ access a section;
       configuration file section (from loadini) -> ./EX/MYINI.INI (forge.example)
       options: user, serveraliveinterval, compression, compressionlevel, forwardx11
       >> logln .{%myini[forge.example][user]} ;~ access option from forge.example;
