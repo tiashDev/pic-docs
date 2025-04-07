@@ -200,8 +200,6 @@ hist *..v*
 
    * hist random
         Plots a histogram with random values.
-   * hist random *me* *md* *mo*
-        Plots a histogram with random values. The mean of the values is *me*, the median *md* and the mode *mo*.
 Turtle
 ------
 
