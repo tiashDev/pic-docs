@@ -14,5 +14,5 @@ Contents
    win-api
    ftp-api
    config_parse
-   ipic
    procs_and_structs
+   ipic
